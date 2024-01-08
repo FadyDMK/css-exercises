@@ -16,4 +16,26 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  font-weight: 550;
 }
+
+button:hover{
+  animation-name: select;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+
+}
+
+@keyframes select{
+  0%{
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+  100%{
+    padding: 22px 30px;
+    font-size: 20px;
+    
+  }
+}
+
